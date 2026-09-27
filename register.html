@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<title>Đăng ký nhận thông tin - Blakletterpress</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fallback layout is enabled only when the original stylesheet is unavailable. -->
+    <style id="fallback-layout" media="not all">
+        body { margin:0; background:#fbd791; color:#584d38; font:14px Georgia,'Times New Roman',serif; }
+        #page { width:880px; max-width:calc(100% - 32px); margin:auto; }
+        #header { height:142px; position:relative; }
+        #motto { padding-top:32px; } #motto p { position:absolute; right:0; top:27px; font-style:italic; }
+        #logo { position:absolute; top:12px; left:350px; } #logo a { color:#300500; font-size:86px; font-weight:bold; text-decoration:none; }
+        #searchbar { position:absolute; right:0; top:78px; } #searchbar .txtfield { width:150px; }
+        #contents { display:flow-root; } #main { float:right; width:640px; max-width:100%; background:#fcf7ec; }
+        #sidebar { float:left; width:212px; } #navigation { padding:6px; border-radius:4px; background:#aa7e35; }
+        #navigation ul, #posts ul, #featured { list-style:none; padding:0; margin:0; }
+        #navigation li + li { margin-top:16px; } #navigation a { display:block; padding:18px 0; text-align:center; background:#310400; color:white; font-size:30px; text-transform:uppercase; text-decoration:none; text-shadow:0 0 8px #cbaa6d; }
+        #sidebar .section { margin-top:16px; padding:6px; background:#f2c56d; } #connect { background:#fff1be; text-align:center; padding-bottom:20px; }
+        #sidebar h2 { font-size:21px; text-align:center; margin:0 0 15px; padding:8px 0; background:#e8b052; color:#71531f; }
+        #connect a { display:inline-block; margin:0 15px; font-weight:bold; text-decoration:none; } #connect .twitter { color:#28a4ca; } #connect .twitter:before { content:'♥'; } #connect .facebook:before { content:'f'; } #connect .googleplus:before { content:'g+'; color:#d54421; }
+        #posts { padding-bottom:14px; } #posts li { padding:0 5px 18px; line-height:1.7; } #posts h5 { color:white; font-size:12px; margin:8px 0 0; font-weight:normal; } #posts p { margin:0; } a.more { color:#487327; }
+        .btn2, #searchbar .btn { background:linear-gradient(#6bea85,#187126); color:white; border:1px solid #487b35; } .btn2 { display:block; margin:0 5px; text-align:center; padding:5px; font-size:24px; font-weight:bold; text-decoration:none; }
+        #footer { clear:both; padding-top:38px; } #featured { display:grid; grid-template-columns:repeat(4,1fr); gap:38px; padding:0 18px; } #featured p { line-height:1.8; text-align:justify; font-size:12px; }
+        #featured a { display:block; border-radius:50%; background:#a7772e; color:#ffe5a0; width:64px; height:64px; line-height:64px; text-align:center; margin:auto auto 20px; font-size:40px; text-decoration:none; } #featured .home:before {content:'⌂';} #featured .bell:before {content:'♧';} #featured .globe:before {content:'◎';} #featured .pencil:before {content:'✎';}
+        #footnote { border-top:6px solid #d0ac66; padding:32px 0 60px; margin-top:40px; text-align:center; font:10px Arial,sans-serif; color:#af945c; }
+        @media(max-width:700px) { #header {height:175px;} #logo {left:40%;} #logo a {font-size:60px;} #motto p {top:100px;} #searchbar {top:140px;} #contents {display:flex; flex-direction:column;} #sidebar,#main {float:none; width:100%;} #sidebar {order:-1; margin-bottom:16px;} #navigation ul {display:flex; gap:6px;} #navigation li {flex:1;} #navigation li + li {margin-top:0;} #navigation a {font-size:18px; padding:12px 0;} #sidebar .section {display:none;} #featured {grid-template-columns:repeat(2,1fr); gap:20px;} }
+    </style>
+    <style>
+        #main .registration { padding:10px 40px 48px; }
+        .registration h1 { font-size:30px; font-weight:normal; color:#77561c; margin:0 0 30px; line-height:1.35; }
+        .registration .intro { font-size:14px; line-height:1.5; margin:0 0 28px; }
+        #register-form { font:14px Georgia,'Times New Roman',serif; color:#645f53; }
+        #register-form fieldset { min-width:0; margin:0 0 2px; padding:8px 12px 4px; border:1px solid #a8a8a8; }
+        #register-form legend { font-size:16px; color:#191810; padding:0 2px; }
+        #register-form .form-row { margin:0 0 30px; }
+        #register-form .form-row > label:not(.consent) { display:block; margin-bottom:4px; }
+        #register-form input:not([type=checkbox]):not([type=radio]) { box-sizing:border-box; width:164px; max-width:100%; }
+        #register-form input[type=date] { width:125px !important; } #register-form input[type=number] { width:68px !important; }
+        #register-form .choices { margin-top:32px; } #register-form .choices label { white-space:nowrap; }
+        #register-form input[type=checkbox], #register-form input[type=radio] { margin:0 3px 0 0; vertical-align:middle; }
+        #register-form textarea { width:290px; max-width:100%; box-sizing:border-box; }
+        #register-form button { background:linear-gradient(#78d98b,#287735); border:2px outset #b4bcac; color:white; font:bold 14px Georgia,serif; padding:2px 7px; cursor:pointer; }
+        #register-form :focus-visible { outline:2px solid #347b39; outline-offset:2px; }
+        #register-status { line-height:1.5; }
+        @media(max-width:700px) { #main .registration {padding:24px 18px 36px;} .registration h1 {font-size:26px;} }
+    </style>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" onerror="document.getElementById('fallback-layout').media='all'">
+    <style id="input-colors">
+        #register-form input:not([type="checkbox"]):not([type="radio"]),
+        #register-form textarea,
+        #register-form select,
+        #register-form option,
+        #searchbar input[type="text"] {
+            background: #fff !important;
+            color: #000 !important;
+            caret-color: #000;
+            color-scheme: light;
+        }
+        #register-form input::placeholder,
+        #register-form textarea::placeholder,
+        #searchbar input::placeholder {
+            color: #000;
+            opacity: 1;
+        }
+        #register-form input:autofill,
+        #searchbar input:autofill {
+            -webkit-text-fill-color: #000;
+            box-shadow: 0 0 0 1000px #fff inset;
+        }
+    </style>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div id="motto">
+				<a href="index.html" class="sitename brand"><img src="images/blakletterpress.png" height="24" width="142" alt="Blakletterpress" onerror="this.replaceWith(document.createTextNode(this.alt))"></a>
+				<p>
+					<img src="images/header-text.png" height="14" width="218" alt="Your online source of trusted news" onerror="this.replaceWith(document.createTextNode(this.alt))">
+				</p>
+			</div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="BLP" onerror="this.replaceWith(document.createTextNode(this.alt))"></a>
+			</div>
+			<div id="searchbar">
+				<form action="#" method="post">
+					<input type="text" value="Enter search query" class="txtfield" aria-label="Search query" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+					<input type="submit" value="Search" class="btn">
+				</form>
+			</div>
+		</div>
+		<div id="contents">
+			<div id="main">
+                <div class="body registration">
+                    <h1>Đăng ký nhận thông tin</h1>
+                    <p class="intro">Điền thông tin bên dưới để nhận bản tin định kỳ. Các trường có dấu * là bắt buộc.</p>
+                    <!-- Connect a real registration endpoint before enabling production submissions. -->
+                    <form id="register-form" action="#" method="post">
+                        <fieldset>
+                            <legend>Thông tin tài khoản</legend>
+                            <div class="form-row"><label for="fullname">Họ và tên *</label><input id="fullname" name="fullname" type="text" placeholder="Nguyễn Văn A" autocomplete="name" required></div>
+                            <div class="form-row"><label for="email">Email *</label><input id="email" name="email" type="email" placeholder="ban@example.com" autocomplete="email" required></div>
+                            <div class="form-row"><label for="password">Mật khẩu * (tối thiểu 8 ký tự)</label><input id="password" name="password" type="password" minlength="8" autocomplete="new-password" required></div>
+                            <div class="form-row"><label for="phone">Số điện thoại * (10 số, bắt đầu bằng 0)</label><input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" pattern="0[0-9]{9}" maxlength="10" title="Nhập 10 chữ số, bắt đầu bằng 0" required></div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Thông tin cá nhân</legend>
+                            <div class="form-row"><label for="birthday">Ngày sinh *</label><input id="birthday" name="birthday" type="date" autocomplete="bday" required></div>
+                            <div class="form-row"><label for="age">Độ tuổi *</label><input id="age" name="age" type="number" min="0" step="1" required></div>
+                            <div class="form-row" role="group" aria-labelledby="gender-label"><span id="gender-label">Giới tính *</span><div class="choices"><label><input type="radio" name="gender" value="male" required> Nam</label> <label><input type="radio" name="gender" value="female"> Nữ</label> <label><input type="radio" name="gender" value="other"> Khác</label></div></div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Tùy chọn nhận tin</legend>
+                            <div class="form-row" role="group" aria-labelledby="topics-label"><span id="topics-label">Chủ đề quan tâm</span><div class="choices"><label><input type="checkbox" name="topics" value="news"> Tin tức</label> <label><input type="checkbox" name="topics" value="blog"> Blog</label> <label><input type="checkbox" name="topics" value="events"> Sự kiện</label></div></div>
+                            <div class="form-row"><label for="region">Khu vực</label><select id="region" name="region"><option value="">-- Chọn khu vực --</option><option value="north">Miền Bắc</option><option value="central">Miền Trung</option><option value="south">Miền Nam</option><option value="other">Khác</option></select></div>
+                            <div class="form-row"><label for="message">Lời nhắn</label><textarea id="message" name="message" rows="4" cols="35" placeholder="Bạn muốn nhận nội dung gì?"></textarea></div>
+                            <div class="form-row"><label class="consent"><input type="checkbox" id="terms" name="terms" value="accepted" required> Tôi đồng ý với điều khoản sử dụng *</label></div>
+                        </fieldset>
+                        <div class="form-actions"><button type="submit">Đăng ký</button> <button type="reset">Nhập lại</button></div>
+                        <p id="register-status" role="status" hidden></p>
+                        <noscript><p>Vui lòng bật JavaScript để kiểm tra biểu mẫu. Trang mẫu chưa kết nối dịch vụ đăng ký.</p></noscript>
+                    </form>
+                </div>
+            </div>
+            <div id="sidebar">
+				<div id="navigation">
+					<div>
+						<ul id="list">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="news.html">News</a>
+							</li>
+							<li>
+								<a href="blog.html">Blog</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section">
+					<div id="connect">
+						<h2>Connect with us:</h2>
+						<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter" aria-label="Twitter"></a> <a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook" aria-label="Facebook"></a> <a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus" aria-label="Google Plus"></a>
+					</div>
+				</div>
+				<div class="section">
+					<div id="posts">
+						<h2>Placeholder</h2>
+						<ul>
+							<li>
+								<h5>Title Sample One</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius
+								</p>
+								<a href="news.html" class="more">Read more</a>
+							</li>
+							<li>
+								<h5>Title Sample One</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend ligula vel velit varius
+								</p>
+								<a href="news.html" class="more">Read more</a>
+							</li>
+						</ul>
+						<a href="" class="btn2">View More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<ul id="featured">
+					<li>
+						<a href="index.html" class="home" aria-label="Home"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+					<li>
+						<a href="index.html" class="bell" aria-label="Thông báo"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+					<li>
+						<a href="index.html" class="globe" aria-label="Thế giới"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+					<li>
+						<a href="index.html" class="pencil" aria-label="Bài viết"></a>
+						<p>
+							This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						</p>
+					</li>
+				</ul>
+				<p id="footnote">
+					© Copyright © 2011.Company name all rights reserved
+				</p>
+			</div>
+		</div>
+	</div>
+<script>
+    const registrationForm = document.getElementById('register-form');
+    const registrationStatus = document.getElementById('register-status');
+    const birthday = document.getElementById('birthday');
+    const today = new Date();
+    birthday.max = [today.getFullYear(), String(today.getMonth() + 1).padStart(2, '0'), String(today.getDate()).padStart(2, '0')].join('-');
+    registrationForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        registrationStatus.hidden = false;
+        registrationStatus.textContent = 'Thông tin đã hợp lệ. Đây là trang mẫu, thông tin chưa được gửi hoặc lưu đăng ký.';
+    });
+    registrationForm.addEventListener('reset', function () {
+        registrationStatus.hidden = true;
+        registrationStatus.textContent = '';
+    });
+    registrationForm.addEventListener('input', function () { registrationStatus.hidden = true; });
+</script>
+</body>
+</html>
